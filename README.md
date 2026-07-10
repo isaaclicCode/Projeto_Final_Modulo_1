@@ -35,4 +35,49 @@ As seguintes tabelas do esquema **HR** do banco FreeSQL foram utilizadas:
 | `COUNTRIES` | Nomes dos países |
 | `REGIONS` | Nomes das regiões |
 
+## 📝 Consultas SQL
+
+### Query 1 - Salário por Departamento e Cargo
+**Objetivo:** Analisar a distribuição de salários por departamento e cargo.
+
+```sql
+-- Query 1
+SELECT
+    e.EMPLOYEE_ID,
+    e.FIRST_NAME,
+    e.LAST_NAME,
+    e.SALARY,
+    d.DEPARTMENT_NAME,
+    d.DEPARTMENT_ID,
+    j.JOB_TITLE,
+    j.JOB_ID
+FROM HR.EMPLOYEES e
+LEFT JOIN HR.DEPARTMENTS d ON e.DEPARTMENT_ID = d.DEPARTMENT_ID
+LEFT JOIN HR.JOBS j ON e.JOB_ID = j.JOB_ID
+WHERE e.SALARY IS NOT NULL
+ORDER BY e.SALARY DESC
+
+### Query 2 - Funcionários por Região (com localização)
+Objetivo: Analisar salários e distribuição geográfica dos funcionários.
+
+sql
+-- Query 2
+SELECT
+    e.EMPLOYEE_ID,
+    e.FIRST_NAME,
+    e.LAST_NAME,
+    e.SALARY,
+    d.DEPARTMENT_NAME,
+    l.CITY,
+    c.COUNTRY_NAME,
+    r.REGION_NAME
+FROM HR.EMPLOYEES e
+LEFT JOIN HR.DEPARTMENTS d ON e.DEPARTMENT_ID = d.DEPARTMENT_ID
+LEFT JOIN HR.LOCATIONS l ON d.LOCATION_ID = l.LOCATION_ID
+LEFT JOIN HR.COUNTRIES c ON l.COUNTRY_ID = c.COUNTRY_ID
+LEFT JOIN HR.REGIONS r ON c.REGION_ID = r.REGION_ID
+WHERE e.SALARY IS NOT NULL
+ORDER BY e.SALARY DESC;
+
+
 # EM CONSTRUÇÃO
