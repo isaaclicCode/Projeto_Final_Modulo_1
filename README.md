@@ -6,7 +6,7 @@
 **Turma:** Visualização de Dados e Business Intelligence [T2]  
 **Módulo:** 1 - Semana 13  
 
----
+==================================================================
 
 ## 🎯 Objetivo do Projeto
 
@@ -58,7 +58,7 @@ WHERE e.SALARY IS NOT NULL
 ORDER BY e.SALARY DESC
 
 ### Query 2 - Funcionários por Região (com localização)
-Objetivo: Analisar salários e distribuição geográfica dos funcionários.
+**Objetivo:**: Analisar salários e distribuição geográfica dos funcionários.
 
 sql
 -- Query 2
@@ -79,5 +79,40 @@ LEFT JOIN HR.REGIONS r ON c.REGION_ID = r.REGION_ID
 WHERE e.SALARY IS NOT NULL
 ORDER BY e.SALARY DESC;
 
+## 🐍 Análise em Python
+
+A análise foi realizada em dois notebooks: `analise_query1.ipynb` e `analise_query2.ipynb`.
+
+### Principais etapas:
+1. Importação das bibliotecas pandas, matplotlib e seaborn;
+2. Carregamento dos CSVs exportados do FreeSQL;
+3. Análise exploratória (estatísticas descritivas, agrupamentos);
+4. Geração de gráficos para visualização dos padrões salariais.
+
+### 📊 Visualizações AED da query 1
+
+#### 1. Distribuição de funcionários por departamento
+![Distribuição de funcionários por departamento](Gráficos_query_1/Distribuição de funcionários por departamento.png)
+**Insight:** Os departamentos **Shipping** (45) e **Sales** (34) concentram a maior parte dos funcionários, enquanto cargos executivos e de relações públicas têm menos de 3 colaboradores.
+=========================
+
+#### 2. Número de funcionários por cargo
+![Número de funcionários por cargo](Gráficos_query_1/Número de funcionários por cargo.png)
+**Insight:** O cargo de **Sales Representative** é o mais comum (30 funcionários), seguido por **Shipping Clerk** (20) e **Stock Clerk** (20). Cargos de alta gestão como **President** e **Marketing Manager** têm apenas 1 funcionário cada.
+=========================
+
+#### 3. Média salarial por departamento
+![Média Salarial por departamento](iGráficos_query_1/Média Salarial por departamento.png)
+**Insight:** O departamento **Executive** tem a maior média salarial (R$ 19.333), enquanto **Shipping** tem a menor (R$ 3.475). A diferença entre eles é de mais de 5 vezes.
+=========================
+
+#### 4. Distribuição de salários por departamento
+![Distribuição do salários por departamento](Gráficos_query_1/Distribuição do salários por departamento.png)
+**Insight:** O boxplot mostra que os salários em **Executive** têm pouca variação (entre R$ 17.000 e R$ 24.000), enquanto departamentos como **Sales** e **Shipping** apresentam maior dispersão, indicando diferenças internas significativas.
+=========================
+
+#### 5. Distribuição de salários por cargo
+![Distribuição de salários por cargo](Gráficos_query_1/Distribuição de salários por cargo.png)
+**Insight:** Cargos como **President** e **Administration Vice President** têm salários concentrados no topo da escala, enquanto **Shipping Clerk** e **Stock Clerk** ocupam a base, com salários entre R$ 2.000 e R$ 4.000.
 
 # EM CONSTRUÇÃO
