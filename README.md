@@ -107,7 +107,7 @@ A análise foi realizada em dois notebooks:
 
 ## 1. Distribuição de funcionários por departamento
 
-![Distribuição de funcionários por departamento](Gráficos_query_1/distribuicao_funcionarios_por_departamento.png)
+![Distribuição de funcionários por departamento](Gráficos_query_1/Distribuicao_de_funcionarios_por_departamento.png)
 
 **Insight:** Os departamentos Shipping (45) e Sales (34) concentram a maior parte dos funcionários, enquanto cargos executivos e de relações públicas têm menos de 3 colaboradores.
 
