@@ -139,7 +139,7 @@ A análise foi realizada em dois notebooks:
 
 ## 5. Distribuição de salários por cargo
 
-![Distribuição de Salários por Cargo](Gráficos_query_1/Distribuiçao_de_salarios_por_cargo.png)
+![Distribuição de Salários por Cargo](Gráficos_query_1/Distribuicao_de_salarios_por_cargo.png)
 
 **Insight:** Cargos como **President** e **Administration Vice President** concentram salários no topo da escala, enquanto **Shipping Clerk** e **Stock Clerk** ocupam a base, com salários entre **R$ 2.000,00** e **R$ 4.000,00**.
 
