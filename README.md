@@ -107,7 +107,7 @@ A análise foi realizada em dois notebooks:
 
 ## 1. Distribuição de funcionários por departamento
 
-![Distribuição de funcionários por departamento](graficos_query_1/distribuicao_funcionarios_por_departamento.png)
+![Distribuição de funcionários por departamento](Gráficos_query_1/distribuicao_funcionarios_por_departamento.png)
 
 **Insight:** Os departamentos Shipping (45) e Sales (34) concentram a maior parte dos funcionários, enquanto cargos executivos e de relações públicas têm menos de 3 colaboradores.
 
@@ -115,7 +115,7 @@ A análise foi realizada em dois notebooks:
 
 ## 2. Número de funcionários por cargo
 
-![Número de funcionários por cargo](Gráficos_query_1/Gráficos_query_1/Numero_de_funcionarios_por_cargo.png)
+![Número de funcionários por cargo](Gráficos_query_1/Numero_de_funcionarios_por_cargo.png)
 
 **Insight:** O cargo de Sales Representative é o mais comum (30 funcionários), seguido por Shipping Clerk (20) e Stock Clerk (20). Cargos de alta gestão como President e Marketing Manager têm apenas 1 funcionário cada.
 
@@ -123,7 +123,7 @@ A análise foi realizada em dois notebooks:
 
 ## 3. Média salarial por departamento
 
-![Média Salarial por Departamento](Gráficos_query_1/Gráficos_query_1/Media_Salarial_por_departamento.png)
+![Média Salarial por Departamento](Gráficos_query_1/Media_Salarial_por_departamento.png)
 
 **Insight:** O departamento **Executive** tem a maior média salarial (**$ 19.333,00**), enquanto **Shipping** apresenta a menor (**$ 3.475,00**). A diferença entre eles é superior a 5 vezes.
 
