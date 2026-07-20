@@ -125,7 +125,7 @@ A análise foi realizada em dois notebooks:
 
 ![Média Salarial por Departamento](Gráficos_query_1/Media_Salarial_por_departamento.png)
 
-**Insight:** O departamento **Executive** tem a maior média salarial (**$ 19.333,00**), enquanto **Shipping** apresenta a menor (**$ 3.475,00**). A diferença entre eles é superior a 5 vezes.
+**Insight:** O departamento **Executive** tem a maior média salarial (**US$ 19.333,00**), enquanto **Shipping** apresenta a menor (**US$ 3.475,00**). A diferença entre eles é superior a 5 vezes.
 
 ---
 
@@ -141,7 +141,7 @@ A análise foi realizada em dois notebooks:
 
 ![Distribuição de Salários por Cargo](Gráficos_query_1/Distribuicao_de_salarios_por_cargo.png)
 
-**Insight:** Cargos como **President** e **Administration Vice President** concentram salários no topo da escala, enquanto **Shipping Clerk** e **Stock Clerk** ocupam a base, com salários entre **R$ 2.000,00** e **R$ 4.000,00**.
+**Insight:** Cargos como **President** e **Administration Vice President** concentram salários no topo da escala, enquanto **Shipping Clerk** e **Stock Clerk** ocupam a base, com salários entre **US$ 2.000,00** e **US$ 4.000,00**.
 
 ---
 
@@ -193,7 +193,7 @@ A análise integrada das duas queries permitiu traçar um panorama abrangente da
 
 * **Concentração geográfica:** Forte presença nos **Estados Unidos (68)** e **Reino Unido (35)**, com participação marginal no **Canadá (2)** e **Alemanha (1)**.
 * **Disparidade salarial regional:** A **Europa** apresenta salários mais elevados (média de **US$ 8.916,67**) em comparação às **Américas (US$ 5.191,66)**.
-* **Hierarquia salarial:** O departamento **Executive** possui a maior média (**R$ 19.333,33**), enquanto **Shipping** apresenta a menor (**R$ 3.475,56**).
+* **Hierarquia salarial:** O departamento **Executive** possui a maior média (**US$ 19.333,33**), enquanto **Shipping** apresenta a menor (**US$ 3.475,56**).
 * **Desigualdade interna:** Departamentos como **Sales** e **Shipping** apresentam grande variação salarial.
 * **Outliers relevantes:** Salários muito acima da média (como **US$ 24.000** de *Steven King* e **US$ 14.000** em *Sales*) distorcem as análises e devem ser tratados separadamente.
 
@@ -254,8 +254,8 @@ Gráficos_query_2/
 # 📎 Links de Entrega
 
 * **Repositório GitHub:** Projeto Final
-* **Vídeo explicativo:** YouTube/Vimeo
-* **Tarefa AVA:** Módulo 1 - Projeto Avaliativo (Semana 12)
+* **Vídeo explicativo:** (https://youtu.be/XhHpWK8MdUE)
+* **Tarefa AVA:** Módulo 1 - Projeto Avaliativo (Semana 13)
 * **Data de entrega:** 20/07/2026
 
 ---
